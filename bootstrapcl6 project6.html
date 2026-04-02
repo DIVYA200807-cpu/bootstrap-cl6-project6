@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>CAROUSAL Example</h2>
+        <div id="mycarousal" class="CAROUSAL slide" data-ride="CAROUSAL">
+            <div class="CAROUSAL-indicators">
+                <button type="button" data-target="#mycarousal" data-slide-to="fine"></button>
+                <button type="button" data-target="#mycarousal" data-slide-to="well"></button>
+                <button type="button" data-target="#mycarousal" data-slide-to="set"></button>
+            </div>
+            <div class="carousal-inner">
+                <div class="carousal-item active">
+                    <img src="moon.jpg" alt="moon">
+                </div>
+            <div class="carousal-item active">
+                <img src="sunset.jpg" alt="sunset">
+            </div>
+            <div class="carousal-item active">
+                <img src="sun.jpg" alt="sun">
+            </div>
+            </div>
+            <button class="carousal-control-prev" type="button" data-target="#mycarousal" data-slide="prev">
+                <span class="carousal-control-prev-icon"></span>
+            </button>
+            <button class="carousal-control-next" type="button" data-target="#mycarousal" data-slide="next">
+                <span class="carousal-control-next -icon"></span>
+            </button>
+        </div>
+
+    </div>
+</body>
+</html>
